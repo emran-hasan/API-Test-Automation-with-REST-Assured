@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="DMoney API Automation">
+    <test name="Admin login">
+        <classes>
+                <class name="TestRunner.AdminLoginTestRunner"></class>
+        </classes>
+    </test>
+    <test name="Create users automation">
+        <classes>
+            <class name="TestRunner.CreateUserTestRunner"></class>
+        </classes>
+    </test>
+    <test name="System user Automation">
+        <classes>
+            <class name="TestRunner.SystemTestRunner"></class>
+        </classes>
+    </test>
+    <test name="First customer automation">
+        <classes>
+            <class name="TestRunner.FirstCustomerTestRunner"></class>
+        </classes>
+    </test>
+    <test name="Agent automation">
+        <classes>
+            <class name="TestRunner.AgentTestRunner"></class>
+        </classes>
+    </test>
+    <test name="Second customer Automation">
+        <classes>
+            <class name="TestRunner.SecondCustomerTestRunner"></class>
+        </classes>
+    </test>
+</suite>
